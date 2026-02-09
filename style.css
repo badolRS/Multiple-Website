@@ -5,7 +5,7 @@
     color: white;
     font-weight: bold;
     padding: 0 200px;
-    
+    border-bottom: 4px solid rgba(81, 11, 148, 0.885);
 }
 .fst > div > h2{
     font-size: 30px;
@@ -31,4 +31,28 @@
     color: red;
     border-radius: 5px;
     
+}
+.uu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-image: url('website\ banner.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.uu > input{
+    width: 400px;
+    height: 30px;
+    border: 2px solid gray;
+}
+.uu > div > i{
+    padding: 4px 5px;
+    font-size: 22px;
+    color: red;
+    background-color: green;
+    cursor: pointer;
 }
