@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.con{
+    width: 1100px;
+    margin: auto;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding-bottom: 80px;
+}
+.crdimg{
+    height: 400px;
+    
+}
+.crdimg img{
+    height: 100%;
+    width: 100%;
+}
+.art{
+    color: green;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.art span{
+    color: red;
+}
+.crd{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 3px;
+    
+}
+.sgn{
+    padding: 20px 30px;
+}
+.sgn span{
+    color: red;
+    
+}
+.sgn h3{
+    font-size: 25px;
+    padding: 30px 0;
+}
+.sgn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 25px 0;
+    display: inline-block;
+}

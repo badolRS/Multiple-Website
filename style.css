@@ -1,11 +1,14 @@
+
 .fst{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(7, 7, 85, 0.841);
+    background-color: rgb(7, 7, 85);
     color: white;
     font-weight: bold;
     padding: 0 200px;
-    border-bottom: 4px solid rgba(81, 11, 148, 0.885);
+    border-bottom: 4px solid rgb(82, 11, 148);
+    position: sticky;
+    top: 0;
 }
 .fst > div > h2{
     font-size: 30px;
