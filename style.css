@@ -155,3 +155,41 @@ main{
     background-color: green;
     color: white;
 }
+footer{
+    background-color: rgb(195, 189, 131);
+    
+
+}
+.tt{
+    width: 1000px;
+    margin: auto;
+    color: white;
+    display: flex;
+    padding: 50px 0;
+}
+.jj{
+    width: 250px;
+    padding: 0 60px;
+    
+}
+.jj > .jjj{
+    padding-top: 30px;
+}
+.jj a{
+    text-decoration: none;
+    color: white;
+}
+.jjjj{
+    padding-top: 20px;
+}
+.op div i{
+    font-size: 30px;
+    background-color: rgb(6, 6, 47);
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+.hh{
+    padding-top: 75px;
+    font-weight: bold;
+    font-size: 17px;
+}
